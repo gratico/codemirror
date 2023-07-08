@@ -1,0 +1,46 @@
+{
+  "name": "@gratico/codemirror",
+  "version": "0.2.4",
+  "author": "Abhishiv Saxena<abhishiv@gmail.com>",
+  "license": "MIT",
+  "description": "Codemirror",
+  "keywords": [
+    "rocky7",
+    "router",
+    "framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gratico/bodhi"
+  },
+  "files": [
+    "./dist"
+  ],
+  "devDependencies": {
+    "rollup": "^3.26.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.5"
+  },
+  "scripts": {
+    "build": "make build",
+    "test": "npx vitest --run --passWithNoTests",
+    "coverage": "vitest run --coverage --run --passWithNoTests",
+    "typecheck": "npx tsc --noEmit"
+  },
+  "main": "./src/index.tsx",
+  "exports": {
+    ".": {
+      "import": "./src/index.tsx"
+    }
+  },
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.1.9",
+    "codemirror": "^6.0.1"
+  },
+  "peerDependencies": {
+    "@gratico/sdk": "*",
+    "rocky7": "*"
+  }
+}
