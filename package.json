@@ -4,14 +4,10 @@
   "author": "Abhishiv Saxena<abhishiv@gmail.com>",
   "license": "MIT",
   "description": "Codemirror",
-  "keywords": [
-    "rocky7",
-    "router",
-    "framework"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gratico/bodhi"
+    "url": "https://github.com/gratico/codemirror"
   },
   "files": [
     "./dist"
