@@ -1,6 +1,6 @@
 {
   "name": "@gratico/codemirror",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "Abhishiv Saxena<abhishiv@gmail.com>",
   "license": "MIT",
   "description": "Codemirror",
